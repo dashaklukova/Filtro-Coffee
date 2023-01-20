@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;900&display=swap');
+*{
+ max-width: 1300px;
+ margin: 0 auto;
+}
+body{
+    background-color: rgba(255, 250, 218, 1) ;
+}
+header{
+    background-image: url(/img/Bg\ Image.jpg);
+    
+    background-repeat: no-repeat;
+    min-width: 1300px;
+    min-height: 720px;
+}
+.header__logo{
+    margin: 38px 0px 0px 85px;
+}
+.header__logo:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.header__top-menu{
+    display: flex;
+    flex-direction: row;
+}
+.header__nav{
+    display: flex;
+    gap:60px;
+    margin: 30px 120px 0px 0px;
+}
+.nav__links{
+    text-decoration: none;
+    color: rgba(255, 250, 218, 1);
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.nav__links:hover{
+    border-bottom: solid rgba(255, 250, 218, 1) 1px;
+}
+.header__nav__buttons{
+    margin: -33px 0px 0px 990px;
+}
+.nav__buttons, .header__invite-button, .section-coffee-world__button{
+    margin: 0px 10px;
+    width: 115px;
+    height: 42px;
+    background-color: rgba(160, 88, 60, 1);
+    border: 0px;
+    border-radius: 8px;
+}
+.button-image-link{
+    margin-top: -5px;
+}
+.nav__buttons-links, .header__invite-link, .section-coffee-world__link {
+    text-decoration: none;
+    color: rgba(255, 250, 218, 1);
+    margin: 9px 1px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.nav__buttons-links:hover, .header__invite-link:hover, .section-coffee-world__link:hover {
+    border-bottom: solid rgba(255, 250, 218, 1) 1px;
+}
+.header__logo-text{
+    display:flex;
+}
+.header__text-title{
+    color: rgba(255, 250, 218, 1);
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 72px;
+}
+.header__text-invite{
+    color: rgba(204, 185, 177, 1);
+    font-family: 'Roboto' ;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.header__text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 265px;
+}
+.header__invite-button{
+    width: 200px;
+    margin: 20px 550px 0px 550px;
+    background: rgb(160,88,60);
+    background: linear-gradient(90deg, rgba(160,88,60,1) 0%, rgba(192,130,103,1) 84%);
+}
+.main__titles{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:  rgba(160, 88, 60, 1);
+    text-align: center;
+    font-size: 23px;
+    margin-top: 33px;
+}
+.section-coffee-world__item-img{
+    border: 0px;
+    border-radius: 8px;
+}
+.section-coffee-world__titles{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgba(255, 250, 218, 1);
+}
+.section-coffee-world__subtext{
+    font-family: 'Poppins';
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(255, 250, 218, 1);
+    margin-top: 11px;
+}
+.section-coffee-world__text{
+    text-align: left;
+    padding: 0px 9px 0px 15px;
+}
+.section-coffee-world__price{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 21px;
+    color: rgba(255, 250, 218, 1);
+    padding: 0px 9px 27px 15px;
+}
+.section-coffee-world__button{
+    box-shadow: 2px 1px 27px 5px rgba(86, 86, 85, 0.48);
+}
+.section-coffee-world__purchase{
+    display: flex;
+    gap: 51px;
+    margin-top: 50px;
+}
+.section-coffee-world__item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 260px;
+    height: 450px;
+    background-color: rgba(192,130,103,1);
+    border: 0px;
+    border-radius: 14px;
+    padding: 17px 6px 17px 0px;
+}
+.section-coffee-world__items{
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    margin: 40px 0px 40px 0px;
+}
+.section-brands__items-img{
+    min-height: 205px;
+    min-width: 292px;
+}
+.section-brands__items {
+    display: flex;
+    justify-content: space-between;
+}
+.section-brands{
+    min-height: 380px;
+}
+footer{
+    background-color: rgba(192,130,103,1) ;
+    min-height: 430px;
+    padding-top: 10px;
+}
+.footer__titles{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:rgba(255, 250, 218, 1) ;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 15px;
+}
+.section-contacts__item-title{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 24px;
+    color: rgba(255, 250, 218, 1);
+    text-align: left;
+    margin-bottom: 4px;
+}
+.section-contacts__item-link{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgba(255, 250, 218, 1);
+    font-family: 'Poppins',sans-serif;
+}
+.section-contacts__item-link:hover{
+    border-bottom: solid rgba(255, 250, 218, 1) 1px;
+}
+.section-contacts__item-links{
+    align-items: flex-end;
+    text-align: left;
+}
+.section-contacts__items{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 22px 50px 50px 50px;
+}
+.footer__hr{
+    border-top:3px solid rgba(255, 250, 218, 1) ;
+    margin-top: 20px;
+    padding: 0px 400px;
+}
+.footer__text{
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 24px;
+    color: rgba(255, 250, 218, 1);
+}
+.footer__afterline{
+    text-align: center;
+}
