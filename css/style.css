@@ -8,9 +8,12 @@ body{
 }
 header{
     background-image: url(../img/Bg\ Image.jpg);
+    background-repeat: no-repeat;
+    min-width: 1300px;
+    min-height: 720px;
 }
 .header__logo{
-    margin: 38px 0px 0px 85px;
+    margin: 37px 0px 0px 85px;
 }
 .header__logo:hover{
     transform: scale(1.5);
