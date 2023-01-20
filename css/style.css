@@ -7,11 +7,7 @@ body{
     background-color: rgba(255, 250, 218, 1) ;
 }
 header{
-    background-image: url(/img/Bg\ Image.jpg);
-    
-    background-repeat: no-repeat;
-    min-width: 1300px;
-    min-height: 720px;
+    background-image: url(../img/Bg\ Image.jpg);
 }
 .header__logo{
     margin: 38px 0px 0px 85px;
